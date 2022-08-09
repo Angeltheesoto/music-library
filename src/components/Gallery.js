@@ -7,7 +7,7 @@ const Gallery = () => {
 
     const display = data.map((item, index) => {
         return (
-            <GalleryItem key={index} item={item} />
+            <GalleryItem key={item} item={index} />
         )
     })
 
